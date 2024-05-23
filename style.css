@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400&family=Roboto:wght@300;400&display=swap');
+body{
+    background-color:hsl(217, 54%, 11%) ;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.shark_container{
+    background-color:hsl(216, 50%, 16%) ;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 272px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.394);
+}
+.shark_main_img img{
+    height: 270px;
+    width: 270px;
+    border-radius:8px;
+}
+.shark_title_body .shark_p__1{
+    font-weight: bold;
+}
+.shark_title_body .shark_p__2{
+    color: hsl(215, 51%, 70%) ;
+    font-size: 15px;
+}
+.shark_eth__1{
+    display: flex;
+    align-items: center;
+    gap :8px;
+    font-size: 12px;
+    color: hsl(178, 100%, 50%);
+}
+.shark_eth__1 img{
+    height: 15px;
+    width: 10px;
+}
+.shark_eth__2{
+    display: flex;
+    align-items: center;
+    gap :10px;
+    font-size: 12px;
+}
+.shark_eth__2 img{
+    height: 15px;
+    width: 15px;
+}
+.shark_eth_main{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.142);
+}
+.shark_footer img{
+    height: 30px;
+    width: 30px;
+    border: 0.1px white solid;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.shark_footer{
+    display: flex;
+    gap: 15px;
+}
+.shark_footer_p1{
+    font-size: 12px;
+    color:hsl(215, 51%, 70%);
+    margin-top: 20px;
+}
+.shark_footer_p2{
+    font-size: 12px;
+    color: white;
+    margin-top: 20px;
+}
